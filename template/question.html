@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-weight: 600;
+            font-size: larger;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .center {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <h1 class="w{{ .Weight }}">{{ .Str }}</h1>
+    </div>
+</body>
+
+</html>
