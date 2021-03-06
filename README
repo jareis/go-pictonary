@@ -1,3 +1,22 @@
 Word Generation Game Made in GOLANG for the web
 
-Intended to be a exercise for learning GO
+Intended to be a exercise for learning GO and more
+
+## How to Build
+
+_Requirement_
+
+-   GNU make
+-   GOLANG
+
+```
+$make build
+$cd dist && ./go-pictonary
+```
+
+Alternatively you can build with docker
+
+```
+$docker build -t go-pictonary -f Dockerfile .
+$docker run -it -p 8080:8080 go-pictonary
+```
