@@ -11,14 +11,14 @@ _Requirement_
 -   GNU make
 -   GOLANG
 
-```
-$make build
-$cd dist && ./go-pictonary
+```sh
+make build
+cd dist && ./go-pictonary
 ```
 
 Alternatively you can build with docker
 
-```
-$docker build -t go-pictonary -f Dockerfile .
-$docker run -it -p 8080:8080 go-pictonary
+```sh
+docker build -t go-pictonary -f Dockerfile .
+docker run -it -p 8080:8080 go-pictonary
 ```
