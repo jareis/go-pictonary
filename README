@@ -20,3 +20,5 @@ Alternatively you can build with docker
 $docker build -t go-pictonary -f Dockerfile .
 $docker run -it -p 8080:8080 go-pictonary
 ```
+
+Codacy Badge
